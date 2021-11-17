@@ -156,7 +156,7 @@ def shop(bag, money, p, c):
         go = input("Please enter above number\n")
         if go.isdigit() is True:
             if go == '1':
-                if money >= 0:
+                if money >= 10:
                     bag.append("Flower")
                     pp("You bought Flower\n")
                     p += 1
